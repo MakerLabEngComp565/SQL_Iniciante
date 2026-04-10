@@ -80,7 +80,7 @@ select * from empresas;
 drop table alunos;
 
 -- Corrigindo os constraints
--- decimal(10,2) => 999999999.99 (10 digitos no total, sendo 2 
+-- decimal(10,2) => 999999999.99 (10 digitos no total, sendo 2 após a vírgula)
 create table alunos(
 	id int primary key,
     id_empresa int,
